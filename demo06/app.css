@@ -1,7 +1,12 @@
-.h1 {
+.className {
+  background-color: blue;
+}
+
+.title {
+  composes:className;
   color:red;
 }
 
-:global(.h2) {
+:global(.title) {
   color: blue;
 }
